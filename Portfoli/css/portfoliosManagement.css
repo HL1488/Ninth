@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header, nav{
+  padding: 0 100px;
+}
+.OneLeft{
+  margin: 10px 0 5px;
+  display: inline-block;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+}
+.OneLeft{
+  border:1px solid #000;
+  width: 150px;
+}
+header img {
+    float: right;
+    margin-top: 15px;
+}
+nav{
+  border-top: 1px solid #000;
+  padding-top: 5px;
+}
+nav a{
+  color: #585858;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+nav a:hover{
+  color: #fff;
+  background: #666;
+  border: 2px solid #000;
+}
+ul li{
+  list-style: none;
+}
+.active{
+  border: 2px solid #000;
+  background-color: #666;
+  color: #fff;
+}
+.Content{
+  background: #ddd;
+  padding: 40px 100px;
+  margin-top:10px;
+}
+.pic,.pic2{
+  width: 1100px;
+  overflow: hidden;
+  border: 2px solid #000;
+  background: #fff;
+  margin-bottom: 20px;
+}
+.pic .left{
+  float: left;
+  width: 700px;
+  border-right: 2px solid #000;
+}
+.pic h1 img, .pic2 h1 img {
+    position: relative;
+    top: 7px;
+    left: 10px;
+}
+.pic .left>img {
+    display: block;
+    margin: 35px auto;
+}
+.pic .right{
+  font-weight: bold;
+  font-size: 20px;
+  width: 400px;
+  margin-left: 700px;
+  background: #eee;
+}
+.pic .right>div,.pic .right li{
+  height: 45px;
+  line-height: 45px;
+  border-bottom: 2px solid #fff;
+  box-sizing: border-box;
+  padding:0 30px;
+}
+.pic .right li{
+  font-size: 16px;
+}
+.pic .right li>span{
+  float: right;
+}
+.pic2{
+  position: relative;
+}
+.found input{
+  padding-left: 25px;
+  height: 25px;
+  line-height: 25px;
+  background: url('../img/found.png') no-repeat  1% 100%;
+  position: absolute;
+  top: 10px;
+  right: 60px;
+  border:1.9px solid #170c1d;
+  border-radius:32px;
+}
+.found span{
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  background: url('../img/found.png') no-repeat;
+  border: 1px solid #000;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  cursor: pointer;
+}
+.nav1{
+  margin: 40px 20px 20px;
+}
+.nav1 a{
+  text-decoration: none;
+  color: #666;
+}
+.nav1 a:hover{
+  color: #222;
+}
+.nav1 span:nth-of-type(1){
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+}
+.footer{
+  text-align: center;
+  color: #fff;
+  margin:10px;
+}
+.footer button{
+  width: 200px;
+  height: 40px;
+  -moz-box-shadow:5px 5px 5px #666;
+  -webkit-box-shadow:5px 5px 5px #666;
+  box-shadow:5px 5px 5px #666;
+}
+.List li:nth-of-type(2n+1){
+  background: #eee;
+}
+.List li{
+  height: 40px;
+  line-height: 40px;
+}
+.List li span{
+  width: 120px;
+  text-align: center;
+  display: inline-block;
+}
+.List li span.RButton{
+  float: right;
+  cursor: pointer;
+}
+.List li a.SBoder{
+  border: 1px solid #666;
+  padding: 2px 20px;
+}
+.List li button{
+  -moz-box-shadow:5px 5px 5px #666;
+  -webkit-box-shadow:5px 5px 5px #666;
+  box-shadow:5px 5px 5px #666;
+  cursor: pointer;
+}
